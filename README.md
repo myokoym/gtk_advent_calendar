@@ -2,6 +2,10 @@
 
 A calendar by Ruby/GTK3.
 
+## Requirements
+
+* Ruby/GTK3 in [Ruby-GNOME2](http://ruby-gnome2.sourceforge.jp/)
+
 ## Installation
 
 Add this line to your application's Gemfile:
