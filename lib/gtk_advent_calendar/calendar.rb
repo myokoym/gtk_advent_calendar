@@ -9,7 +9,6 @@ module GtkAdventCalendar
       super
       @day = 1
       box = Gtk::Box.new(:vertical)
-      box.add(Gtk::Label.new)
       box.add(month)
       add(box)
     end
