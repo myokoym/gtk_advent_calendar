@@ -59,7 +59,11 @@ module GtkAdventCalendar
       when /mswin|mingw|cygwin|bccwin/
         system("start", uri)
       else
+        if Gtk.respond_to?(:show_uri)
+          Gtk.show_uri(uri)
+        else
         system("firefox", uri)
+        end
       end
     end
   end
