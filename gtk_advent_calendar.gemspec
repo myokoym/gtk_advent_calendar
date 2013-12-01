@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = GtkAdventCalendar::VERSION
   spec.authors       = ["Masafumi Yokoyama"]
   spec.email         = ["myokoym@gmail.com"]
-  spec.description   = %q{A calendar by Ruby/GTK3.}
-  spec.summary       = %q{A calendar by Ruby/GTK3}
+  spec.description   = %q{An advent calendar by Ruby/GTK3.}
+  spec.summary       = %q{An advent calendar by Ruby/GTK3}
   spec.homepage      = "https://github.com/myokoym/gtk_advent_calendar"
   spec.license       = "MIT"
 
