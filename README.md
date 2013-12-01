@@ -1,6 +1,6 @@
 # GtkAdventCalendar
 
-A calendar by Ruby/GTK3.
+An advent calendar by Ruby/GTK3.
 
 ## Requirements
 
