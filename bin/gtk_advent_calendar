@@ -2,4 +2,4 @@
 
 require "gtk_advent_calendar/command"
 
-GtkAdventCalendar::Command.run(*ARGV)
+GtkAdventCalendar::Command.run
