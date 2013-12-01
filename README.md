@@ -37,6 +37,11 @@ class YourCalendar < GtkAdventCalendar::Calendar
     ...
   end
 end
+
+window = Gtk::Window.new
+window.add(YourCalendar.new)
+window.show_all
+Gtk.main
 ```
 
 ## Contributing
