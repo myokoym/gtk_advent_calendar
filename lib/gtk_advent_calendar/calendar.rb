@@ -62,7 +62,7 @@ module GtkAdventCalendar
         if Gtk.respond_to?(:show_uri)
           Gtk.show_uri(uri)
         else
-        system("firefox", uri)
+          system("firefox", uri)
         end
       end
     end
