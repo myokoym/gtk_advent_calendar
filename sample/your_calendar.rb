@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require "gtk_advent_calendar"
 
 class YourCalendar < GtkAdventCalendar::Calendar
