@@ -45,9 +45,13 @@ module GtkAdventCalendar
       button.width_request = CELL_WIDTH
       button.height_request = CELL_WIDTH
       button.signal_connect("clicked") do
-        show_uri("http://en.wikipedia.org/wiki/December_#{n}")
+        action(n)
       end
       button
+    end
+
+    def action(n)
+      show_uri("http://en.wikipedia.org/wiki/December_#{n}")
     end
 
     def show_uri(uri)
