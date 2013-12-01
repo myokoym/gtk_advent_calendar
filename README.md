@@ -22,7 +22,22 @@ Or install it yourself as:
 
 ## Usage
 
+### For Command Line Application
+
     $ gtk_advent_calendar
+
+### For Library
+
+```ruby
+require "gtk_advent_calendar"
+
+class YourCalendar < GtkAdventCalendar::Calendar
+  # @params n [Integer] the day between 1 and 25.
+  def action(n)
+    ...
+  end
+end
+```
 
 ## Contributing
 
