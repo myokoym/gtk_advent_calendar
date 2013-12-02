@@ -22,11 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-### As Command Line Application
+### As an Application
 
     $ gtk_advent_calendar
 
-### As Library
+### As a Library
 
 ```ruby
 require "gtk_advent_calendar"
